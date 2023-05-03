@@ -1,0 +1,16 @@
+package atividade25042023;
+
+import java.util.Scanner;
+
+public class exercicio3 {
+
+
+	      public static void main (String [] args) {
+	    	  Scanner s = new Scanner(System.in);	  
+	    	  System.out.println("Digite seu nome");
+	    	  String nome = s.next();
+	    	  System.out.println("Digite sua idade");
+	    	  int idade = s.nextInt();
+	    	  System.out.printf("Meu nome é %s e tenho %d " ,nome,idade);
+	      }	    	  
+}
